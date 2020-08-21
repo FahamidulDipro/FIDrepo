@@ -68,7 +68,8 @@ body {
     color:white;
     font-size: 2.8em;
     font-weight: bolder;
-    border:8px solid black;
+    border:2px solid black;
+  
    
 }
 .btn-grey:active {
@@ -123,6 +124,7 @@ p{
     border-radius: 30px;
     }
     .btn-red{
-         border-radius: 30px;    
+         border-radius: 30px;
+         border:8px solid black;
     }
 }
