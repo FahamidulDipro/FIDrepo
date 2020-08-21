@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-transform: capitalize;
+    color: white;
+}
+.container {
+    background: purple;
+    padding: 2em;
+    border-radius: 10px;
+    text-align:center;
+}
+#messageOut {
+    background: lightyellow;
+    height: 50px;
+    padding:2em;
+    border-radius: 10px;
+    color: steelblue;
+}
+button {
+    display: block;
+    font-size: 2em;
+    margin: 1em auto;
+    border-radius:10px;
+    cursor: pointer;
+}
+button:hover{
+    background: lightblue;
+}
+#messageIn {
+    height: 50px;
+    width:80%;
+    border: 10px solid orange;
+    box-shadow: 0 0 10px orange;
+}

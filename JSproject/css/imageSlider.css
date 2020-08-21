@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://image.freepik.com/free-photo/brick-wall-texture-background_23-2148192010.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width:70%;
+    min-height: 70%;
+    border: 10px solid orange;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+}
+.images {
+  
+  
+    min-height: 70vh;
+    background:url('../images/img-0.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    position: relative;
+  
+}
+
+.btn {
+    display: inline-block;
+    background: steelblue;
+    color:white;
+    padding:1em;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 2px 5px black;
+    border:none;
+}
+.btn:active {
+    background:white;
+    outline:none;
+    color:black;
+    font-size: smaller;
+    box-shadow: 1px 3px black;
+}
+
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-60%);
+}
+.nextBtn {
+    position: absolute;
+    top:50%;
+    right:0;
+    transform: translate(50%,-60%);
+}
+.title {
+    background:purple;
+    color:white;
+    margin:0;
+    padding:1em;
+    letter-spacing: 0.3em;
+    border:2px solid black;
+}
