@@ -43,7 +43,7 @@ body {
 }
 .btn:active {
     background:white;
-    outline:none;
+    outline:0;
     color:black;
     font-size: smaller;
     box-shadow: 1px 3px black;
