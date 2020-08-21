@@ -74,15 +74,19 @@ body {
 }
 .btn-grey:active {
     background:rgb(204, 222, 247);
+    outline:0;
 }
 .btn-green:active{
     background:lightgreen;
+    outline:0;
 }
 .btn-red:active{
     background:orangered;
+    outline:0;
 }
 .btn-yellow:active{
     background: rgb(248, 190, 142);
+    outline:0;
    
 }
 .title {
