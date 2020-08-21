@@ -47,6 +47,7 @@ body {
     color:black;
     font-size: smaller;
     box-shadow: 1px 3px black;
+    border:none;
 }
 
 .prevBtn {
