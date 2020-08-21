@@ -49,6 +49,9 @@ body {
     box-shadow: 1px 3px black;
     border:none;
 }
+.btn:hover{
+    outline:none;    
+}
 
 .prevBtn {
     position: absolute;
