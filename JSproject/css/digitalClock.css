@@ -1,0 +1,63 @@
+body {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(194, 121, 110);
+}
+#clock{
+    font-family: 'Orbitron', sans-serif;
+    color: greenyellow;
+    font-size: 5em;
+    background:black;
+}
+.btn-reset{
+    float: left;
+    margin-top: 50vh;
+    font-size:2em;
+    border-radius: 15px;
+    outline:none;
+    background:red;
+    color:white;
+    box-shadow: 5px 10px black;
+}
+
+.btn-start{
+    float: right;
+    margin-top:50vh;
+    margin-right:0.5em;
+    font-size:2em;
+    border-radius: 15px;
+    outline:none;
+    background:green;
+    color:white;
+    box-shadow: 5px 10px black;
+    
+}
+
+.btn-reset:active{
+    box-shadow: none;
+    outline:none;
+    font-size:1.8em;
+}
+.btn-start:active{
+    box-shadow: none;
+    outline:none;
+    font-size:1.8em;
+}
+.title{
+    color:white;
+  
+    margin-top:-10vh;
+}
+@media screen and (max-width: 1200px){
+   #clock {
+       font-size: 2em;
+       margin-right:2.1em;
+       border:12px solid grey;
+       padding:.5em;
+       width:85%;
+       height: 100px;
+       text-align:center;
+   }
+}
