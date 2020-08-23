@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar_header {
+    background:slateblue;
+    display: flex;
+    justify-content: space-between;
+    padding:.5em 1em;
+    border-bottom:0.2em solid darkblue;
+    
+}
+.navbar_logo{
+    height: 80px;
+    
+}
+
+.navbar_btn {
+    border:5px solid darkblue;
+    align-self: center;
+    cursor: pointer;
+}
+
+.bar1,.bar2,.bar3{
+    width: 30px;
+    height:5px;
+    margin:0.5em;
+    background:darkblue;
+    transition:all 1s ease;
+}
+.change_btn .bar1{
+    transform:rotate(-45deg) translate(-10px,10px);
+}
+.change_btn .bar2{
+    opacity: 0;
+}
+.change_btn .bar3{
+    transform:rotate(45deg) translate(-8px, -8px);
+}
+.navbar_links{
+  
+    transition:all 1s ease;
+    height:0;
+    overflow: hidden;
+  
+}
+.navbar_single-link a{
+    list-style-type: none;
+    text-decoration:none;
+    color:lightgreen;
+}
+.navbar_collapse{
+    height: 260px;
+    
+
+}
+.navbar_single-link{
+    background:grey;
+    color:white;
+    padding:.5em;
+    font-size:1.5em;
+    text-decoration:none;
+    transition:all 1s ease;
+    cursor:pointer;
+  
+}
+.navbar_single-link:hover{
+    background:rgb(51, 50, 50);
+    padding-left:1.5em;
+}
+header{
+    background: url('https://cdn3.f-cdn.com/contestentries/1489974/18545046/5cba2aba229c4_thumb900.jpg')center/cover no-repeat;
+    min-height: calc(100vh - 91.9px);
+    
+    
+}
