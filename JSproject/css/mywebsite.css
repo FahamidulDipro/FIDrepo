@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    background:green;
+    font-size:1.4em ;
+    padding:.5em;
+    color:white;
+    border-bottom:2px solid black;
+}
+
+.list {
+    display:none;
+  
+   
+  
+}
+li{
+    background:peru;
+    color:white;
+    font-size: 2em;
+    padding:.6em;
+    margin:0;
+    transition: all 1s;
+    cursor: pointer;
+}
+li:hover{
+    background:rgb(102, 67, 31);
+    padding-left:1em;
+
+}
+header{
+    background:url('../images/img-0.jpg')center/cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+.fa-bars{
+    cursor: pointer;
+    padding-top:.2em;
+    padding-right:.1em;
+    transition: linear;
+    
+}
+ 
+.fa-times{
+    cursor: pointer;
+    padding-top:.2em;
+    padding-right:.1em;  
+ 
+}
+
+
+
