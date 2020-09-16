@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(238, 138, 6);
+}
+.btn{
+    background:black;
+    color:rgb(238, 138, 6);
+    font-size: large;
+    padding:1em;
+    margin:1em;
+    border-radius: 20px;
+    outline: none;
+}
+.title{
+    color:black;
+    font-size: 1.3em;
+    margin-bottom:2em;
+    width: 70%;
+}
+.paragraph{
+    height: 50vh;
+    width:70%;
+    background-color: black;
+    color:greenyellow;
+    font-size:1em;
+    padding:2em;
+    border-radius: 10px;
+}
