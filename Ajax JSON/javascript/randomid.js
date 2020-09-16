@@ -4,7 +4,7 @@ var i = 0;
 
 button.addEventListener('click', function () {
     var peopleId = new XMLHttpRequest();
-    peopleId.open('GET', 'https://www.filltext.com/?rows=5&pretty=true&id={index}&name={firstName}&lastname={lastName}&city={city}&business={business}&email={email}&phone={phone|format}')
+    peopleId.open('GET', 'http://www.filltext.com/?rows=5&pretty=true&id={index}&name={firstName}&lastname={lastName}&city={city}&business={business}&email={email}&phone={phone|format}')
     peopleId.onload = function () {
         var data = JSON.parse(peopleId.responseText);
         clear();
