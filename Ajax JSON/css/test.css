@@ -1,0 +1,12 @@
+body{
+    min-height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    background-color: slateblue;
+    color:wheat;
+    font-size: 2em;
+}
